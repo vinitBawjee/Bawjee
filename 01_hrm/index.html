@@ -14,9 +14,9 @@
                 <span id="in-out-time">00 : 00 : 00</span>
             </div>
             <div class="auth-btn">
-                <button>login</button>
+                <a href="./login.html">login</a>
                 <span>/</span>
-                <button>signup</button>
+                <a href="">signup</a>
             </div>
         </div>
         <div class="container-navBody">
@@ -28,8 +28,8 @@
         </div>
         <div class="container-mainBody">
             <div class="check_Time_btn">
-                <button>In</button>
-                <button>Stop</button>
+                <button id="check_in_btn">In</button>
+                <button id="check_stop_btn">Stop</button>
             </div>
             <div class="progress_Form">
                 <form action="">
@@ -39,11 +39,10 @@
                     </div>
                     <div class="form_div">
                         <label for="">Status :</label>
-                        <!-- <input type="text" placeholder="enter your today's task"> -->
                          <textarea name="" id="" placeholder="enter your today's progress"></textarea>
                     </div>
                     <div>
-                        <input type="submit" value="Out">
+                        <input type="submit" value="Out" id="check_out_btn" disabled>
                     </div>
                 </form>
             </div>
