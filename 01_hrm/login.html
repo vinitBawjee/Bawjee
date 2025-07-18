@@ -10,14 +10,14 @@
     <div class="container">
         <div class="container_Form">
             <h1>Login</h1>
-            <form action="">
+            <form action="" onsubmit="saveData(event)">
                 <div class="form_field">
                     <label for="">Username :</label>
-                    <input type="text" placeholder="enter your username">
+                    <input type="text" id="userName" placeholder="enter your username">
                 </div>
                 <div class="form_field">
                     <label for="">Password :</label>
-                    <input type="text" placeholder="enter your password">
+                    <input type="password" id="Password" placeholder="enter your password">
                 </div>
                 <div>
                     <input type="submit">
@@ -25,5 +25,7 @@
             </form>
         </div>
     </div>
+
+    <script src="./login.js"></script>
 </body>
 </html>
