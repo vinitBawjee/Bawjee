@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/login.css">
+    <title>H R M ( Login )</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <h1>Login</h1>
+            <form action="">
+                <div class="form_row">
+                    <label for="">Username :</label>
+                    <input type="text" id="username">
+                    <p></p>
+                </div>
+                <div class="form_row">
+                    <label for="">Password :</label>
+                    <input type="password" id="password">
+                    <p></p>
+                </div>
+                <div class="form_row">
+                    <label for="">Role :</label>
+                    <select id="role">
+                        <option value="">-- select role --</option>
+                        <option value="employee">Employee</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                    <p></p>
+                </div>
+                <div class="form_row_btn"> 
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../logic/login.js"></script>
+</body>
+</html>

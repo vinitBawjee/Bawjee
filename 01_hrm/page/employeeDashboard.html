@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/employeeDashboard.css">
+    <title>H R M ( dashboard )</title>
+</head>
+<body>
+    <div class="container">
+        <div class="leftSide">
+            <ul class="functionality">
+                <li><button onclick="showContent('dashboard')">Dashboard</button></li>
+                <li><button onclick="showContent('workAssigned')">Work Assigned</button></li>
+                <li><button onclick="showContent('meeting')">Meeting</button></li>
+                <li><button onclick="showContent('salaryDetail')">Salary Details</button></li>
+                <li><button onclick="showContent('leaveApply')">Leave Apply</button></li>
+                <li><button onclick="showContent('account')">Account</button></li>
+            </ul>
+            <div class="account">
+                <div class="photo">          
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpjRkfdV2CW7Sg2sT7e3zRmUyUUIOh5IW0bw&s" alt="logo">
+                </div>
+                <div class="info">
+                    <h3>E#$44</h3>
+                    <p>vinit bawjee</p>
+                </div>
+            </div>
+        </div>
+        <div class="rightSide">
+            <div class="mainContainer" id="main"></div>
+        </div>
+    </div>
+
+    <script src="../logic/employeeDashboard.js"></script>
+</body>
+</html>
